@@ -7,11 +7,11 @@ import HamburgerIcon from './hamburger_icon.svg'
 
 const Navbar = () => {
 
-const [openLinks, setOpenLinks] = useState (false)
+  const [openLinks, setOpenLinks] = useState(false)
 
-const toggleNavbar = () => {
-  setOpenLinks (!openLinks)
-}
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks)
+  }
 
   return (
 
@@ -20,17 +20,15 @@ const toggleNavbar = () => {
       <div className='leftSide' id={openLinks ? "open" : "close"}>
         <img src={Logo} alt="" />
 
-        <div className='hiddenLinks'>
+        <div className="hiddenLinks">
 
-          <Link to="/" className="navbarLink">Home</Link>
-          <Link to="/menu" className="navbarLink">Menu</Link>
-          <Link to="/services" className="navbarLink">Services</Link>
-          <Link to="/about" className="navbarLink">About</Link>
-          <Link to="/contact" className="navbarLink">Contact</Link>
+          <Link to="/">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
 
         </div>
-
-
       </div>
 
       <div className='rightSide'>
@@ -41,7 +39,7 @@ const toggleNavbar = () => {
         <Link to="/contact">Contact</Link>
 
         <button onClick={toggleNavbar}>
-          <img src={HamburgerIcon} alt="Hamburger Icon" />
+          <img src={HamburgerIcon} alt="HamburgerIcon" />
         </button>
 
 
