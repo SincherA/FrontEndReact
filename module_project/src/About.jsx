@@ -17,8 +17,6 @@ const About = () => {
 
         With a warm and inviting ambiance, we strive to provide a dining experience that feels just like home. Whether you're here for a casual family dinner or a romantic evening for two, we guarantee a memorable time filled with delicious flavors and exceptional service.
       </p>
-
-
     </div>
   )
 }

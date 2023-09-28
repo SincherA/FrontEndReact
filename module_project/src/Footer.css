@@ -9,9 +9,9 @@
   padding-top: 10px;
 }
 
-.socialMedia png {
+.socialMedia img {
   color: white;
-  margin: 20px;
+  margin: 20px; 
   font-size: 70px;
   cursor: pointer;
 }

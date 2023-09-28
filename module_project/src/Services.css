@@ -1,0 +1,33 @@
+.services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 45vh; /* Adjust the height as needed */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+
+.service h2 {
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
